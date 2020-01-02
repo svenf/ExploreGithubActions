@@ -1,8 +1,11 @@
 /**********************************************************************
- Name: TestDX2
+ Name: TestDX2_Test
 ======================================================
-Description: test2
+Description: Test class for
 ***********************************************************************/
-public class TestDX2 {
+@IsTest
+private class TestDX2_Test {
+    static testMethod void testBehavior() {
 
+    }
 }
