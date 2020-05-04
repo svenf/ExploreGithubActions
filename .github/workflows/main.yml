@@ -1,6 +1,9 @@
 #.github/workflows/main.yml
 name: Scratch org for review
-on: pull_request
+#on: pull_request
+branches-ignore:
+      - '**'
+
 
 jobs:
   build:
